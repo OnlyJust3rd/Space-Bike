@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4454426509554235052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4454426509554235057}
+  - component: {fileID: 4454426509554235058}
+  - component: {fileID: 4454426509554235059}
+  m_Layer: 0
+  m_Name: Items
+  m_TagString: Items
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4454426509554235057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4454426509554235052}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4454426509995531597}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4454426509554235058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4454426509554235052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d637e516e4a0b43a7f32549f053886, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  data:
+  - name: Medkit
+    type: 0
+    sprite: {fileID: 21300000, guid: ec94b3890fe0e974f8fd6199d6242c17, type: 3}
+    tempColor: {r: 0.6382494, g: 1, b: 0, a: 1}
+  - name: BatteryCharge
+    type: 1
+    sprite: {fileID: 21300000, guid: a414ad5457a6e99488b05b00f122ae4c, type: 3}
+    tempColor: {r: 1, g: 0.7349173, b: 0, a: 1}
+  - name: Multiplier
+    type: 2
+    sprite: {fileID: 21300000, guid: afaa8ffa387881149905c4280dbf5866, type: 3}
+    tempColor: {r: 1, g: 0.34602743, b: 0, a: 1}
+  - name: MoreMissile
+    type: 3
+    sprite: {fileID: 21300000, guid: 37578bd809822e64aabc2b0c9793f4b0, type: 3}
+    tempColor: {r: 1, g: 0.13943139, b: 0, a: 1}
+  - name: Shield
+    type: 4
+    sprite: {fileID: 21300000, guid: 9c891776cee7b5246ab1df00e90f8871, type: 3}
+    tempColor: {r: 0, g: 0.36263132, b: 1, a: 1}
+  - name: LittleGuy
+    type: 5
+    sprite: {fileID: 21300000, guid: 62b3767b51bd61e47a9f1305544ab627, type: 3}
+    tempColor: {r: 1, g: 0.37169808, b: 0.66796935, a: 1}
+  - name: Barrage
+    type: 6
+    sprite: {fileID: 21300000, guid: 7daacf5d2ce849544a756ab05436bde5, type: 3}
+    tempColor: {r: 0, g: 0.8970537, b: 1, a: 1}
+  - name: Gatling
+    type: 7
+    sprite: {fileID: 21300000, guid: 8bf033e9e5d5fb249ae7795059c801f9, type: 3}
+    tempColor: {r: 1, g: 0.96190935, b: 0, a: 1}
+  - name: Laser
+    type: 8
+    sprite: {fileID: 21300000, guid: 73d92968c8dcb5b459ec6848ce5f61bd, type: 3}
+    tempColor: {r: 0, g: 1, b: 0.27362537, a: 1}
+  - name: Explosive
+    type: 9
+    sprite: {fileID: 21300000, guid: 7ec24a9d49c807d40bfd91f10cc6c020, type: 3}
+    tempColor: {r: 0.5283019, g: 0, b: 0.03504753, a: 1}
+  type: 0
+--- !u!58 &4454426509554235059
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4454426509554235052}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.3
+--- !u!1 &4454426509995531598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4454426509995531597}
+  - component: {fileID: 4454426509995531596}
+  m_Layer: 0
+  m_Name: Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4454426509995531597
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4454426509995531598}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4454426509554235057}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4454426509995531596
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4454426509995531598}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -1
+  m_Sprite: {fileID: 21300000, guid: 9c891776cee7b5246ab1df00e90f8871, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.2, y: 0.2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0

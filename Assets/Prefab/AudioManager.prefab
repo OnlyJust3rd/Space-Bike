@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8473558341736425645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8473558341736425644}
+  - component: {fileID: 34422675901460040}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: AudioManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8473558341736425644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8473558341736425645}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &34422675901460040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8473558341736425645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e1b8ae3e368954b968d90593075504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audios:
+  - name: Barrage
+    clip: {fileID: 8300000, guid: cdc90303eeedb5c4698a49a3bc13f303, type: 3}
+    group: {fileID: 0}
+    loop: 0
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+  - name: Bomb
+    clip: {fileID: 8300000, guid: 95a6cc7014db6724ca29c4ef1340501f, type: 3}
+    group: {fileID: 0}
+    loop: 0
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: b945cc48808d4d14e96a3397eb0cbaa7, type: 3}
+    group: {fileID: 0}
+    loop: 0
+    volume: 0.7
+    pitch: 1
+    source: {fileID: 0}
+  - name: ExplosiveLaunch
+    clip: {fileID: 8300000, guid: 6cd72fab3459a7944b5d12551c3e5edc, type: 3}
+    group: {fileID: 0}
+    loop: 0
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+  - name: Gatling
+    clip: {fileID: 8300000, guid: 78b0c6af306312047ab9eb0cc6755da0, type: 3}
+    group: {fileID: 0}
+    loop: 0
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+  - name: Get Item
+    clip: {fileID: 8300000, guid: 522775973587fe84291dfae666f07d8b, type: 3}
+    group: {fileID: 0}
+    loop: 0
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+  - name: Hurt
+    clip: {fileID: 8300000, guid: a08322ccfaee21444b0287627d5a9c4b, type: 3}
+    group: {fileID: 0}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Laser
+    clip: {fileID: 8300000, guid: 01aafc8631398974e87c8f57810bf785, type: 3}
+    group: {fileID: 0}
+    loop: 0
+    volume: 1
+    pitch: 1.2
+    source: {fileID: 0}
+  - name: Enemy Hit
+    clip: {fileID: 8300000, guid: b6e6e5a42a498724cb4b588ca5734285, type: 3}
+    group: {fileID: 0}
+    loop: 0
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: bgm
+    clip: {fileID: 8300000, guid: 321043f72e6fed3409c0201746a2973c, type: 3}
+    group: {fileID: 0}
+    loop: 1
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: boss music
+    clip: {fileID: 8300000, guid: 953b222b96afab144b3a7e555bb76612, type: 3}
+    group: {fileID: 0}
+    loop: 1
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
